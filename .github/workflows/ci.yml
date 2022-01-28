@@ -24,10 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Set up Python 3.8.10
+      - name: Set up Python 3.8.12
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8.10
+          python-version: 3.8.12
       # Runs a single command using the runners shell
       # To run a set of commands, use | after Run then type commands in new lines
       - name: Install dependencies
