@@ -9,6 +9,8 @@ on:
     branches: [ main ]
     paths-ignore:
       - '**/README.md'
+      # CI does not need to be triggered on CD config change
+      - '**/cd.yml'
   pull_request:
     branches: [ main ]
 
