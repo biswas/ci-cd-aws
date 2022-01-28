@@ -11,6 +11,7 @@ on:
       - '**/README.md'
       # CI does not need to be triggered on CD config change
       - '**/cd.yml'
+      - '.aws/*'
   pull_request:
     branches: [ main ]
 
